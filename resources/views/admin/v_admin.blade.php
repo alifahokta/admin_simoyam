@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>E-Perpus | SMK Negeri 1 Cimahi</title>
+    <title>Admin | SIMOYAM</title>
     <!-- Tell the browser to be responsive to screen width -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -50,7 +50,7 @@
                         <img src="{{asset('template')}}/dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
                     </div>
                     <div class="info">
-                        <a href="#" class="d-block">Alifah Merthi</a>
+                        <a href="#" class="d-block">Alifah Merthi Noor</a>
                     </div>
                 </div>
             </ul>
@@ -87,36 +87,12 @@
                             </a>
                         </li>
 
-                        <!-- Awal Menu PEMINJAMAN-->
-                        <li class="nav-item has-treeview">
-                            <a href="#" class="nav-link">
-                                <i class="nav-icon fas fa-random"></i>
-                                <p>
-                                    Peminjaman
-                                </p>
-                            </a>
-
-                        </li>
-                        <!-- Akhir Menu PEMINJAMAN-->
-
-                        <!-- Awal Menu PENGEMBALIAN-->
-                        <li class="nav-item has-treeview">
-                            <a href="#" class="nav-link">
-                                <i class="nav-icon fas fa-check"></i>
-                                <p>
-                                    Pengembalian
-                                </p>
-                            </a>
-
-                        </li>
-                        <!-- Akhir Menu PENGEMBALIAN-->
-
-                        <!-- Awal Menu BUKU-->
+                        <!-- Awal Menu Pegawai-->
                         <li class="nav-item has-treeview">
                             <a href="#" class="nav-link">
                                 <i class="nav-icon fas fa-book"></i>
                                 <p>
-                                    Buku
+                                    Kelola Pegawai
                                     <i class="fas fa-angle-left right"></i>
                                 </p>
                             </a>
@@ -124,108 +100,30 @@
                                 <li class="nav-item">
                                     <a href="#" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
-                                        <p>Tambah Buku</p>
+                                        <p>Tambah Pegawai</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
                                     <a href="#" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
-                                        <p>Data Buku</p>
+                                        <p>Data Pegawai</p>
                                     </a>
                                 </li>
                             </ul>
                         </li>
-                        <!-- Akhir Menu BUKU-->
+                        <!-- Akhir Menu Pegawai-->
 
-                        <!-- Awal Menu ANGGOTA-->
+                        <!-- Awal Menu Laporan-->
                         <li class="nav-item has-treeview">
                             <a href="#" class="nav-link">
-                                <i class="nav-icon fas fa-users"></i>
-                                <p>
-                                    Anggota
-                                    <i class="fas fa-angle-left right"></i>
-                                </p>
-                            </a>
-                            <ul class="nav nav-treeview">
-                                <li class="nav-item">
-                                    <a href="#" class="nav-link">
-                                        <i class="far fa-circle nav-icon"></i>
-                                        <p>Tambah Anggota</p>
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="#" class="nav-link">
-                                        <i class="far fa-circle nav-icon"></i>
-                                        <p>Data Anggota</p>
-                                    </a>
-                                </li>
-                            </ul>
-                        </li>
-                        <!-- Akhir Menu BUKU-->
-
-                        <!-- Awal Menu PENULIS-->
-                        <li class="nav-item has-treeview">
-                            <a href="#" class="nav-link">
-                                <i class="nav-icon fas fa-edit"></i>
-                                <p>
-                                    Penulis
-                                </p>
-                            </a>
-                        </li>
-                        <!-- Akhir Menu PENULIS-->
-
-                        <!-- Awal Menu PENERBIT-->
-                        <li class="nav-item has-treeview">
-                            <a href="#" class="nav-link">
-                                <i class="nav-icon fas fa-table"></i>
-                                <p>
-                                    Penerbit
-                                </p>
-                            </a>
-                        </li>
-
-                        <!-- Awal Menu RAK-->
-                        <li class="nav-item has-treeview">
-                            <a href="#" class="nav-link">
-                                <i class="nav-icon fas fa-suitcase"></i>
-                                <p>
-                                    Tempat Penyimpanan
-                                </p>
-                            </a>
-                        </li>
-                        <!-- Akhir Menu RAK-->
-
-                        <!-- Awal Menu LAPORAN-->
-                        <li class="nav-item has-treeview">
-                            <a href="#" class="nav-link">
-                                <i class="nav-icon fas fa-chart-pie"></i>
+                                <i class="nav-icon fas fa-check"></i>
                                 <p>
                                     Laporan
-                                    <i class="right fas fa-angle-left"></i>
                                 </p>
                             </a>
-                            <ul class="nav nav-treeview">
-                                <li class="nav-item">
-                                    <a href="../charts/chartjs.html" class="nav-link">
-                                        <i class="far fa-circle nav-icon"></i>
-                                        <p>ChartJS</p>
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="../charts/flot.html" class="nav-link">
-                                        <i class="far fa-circle nav-icon"></i>
-                                        <p>Flot</p>
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="../charts/inline.html" class="nav-link">
-                                        <i class="far fa-circle nav-icon"></i>
-                                        <p>Inline</p>
-                                    </a>
-                                </li>
-                            </ul>
+
                         </li>
-                        <!-- Akhir Menu LAPORAN-->
+                        <!-- Akhir Menu Laporan-->
 
                     </ul>
                 </nav>
@@ -259,7 +157,7 @@
                                 <span class="info-box-icon bg-info elevation-1"><i class="fas fa-chart-pie"></i></span>
 
                                 <div class="info-box-content">
-                                    <span class="info-box-text">Buku</span>
+                                    <span class="info-box-text">Persen Keuntungan</span>
                                     <span class="info-box-number">
                                         10
                                         <small>%</small>
@@ -275,8 +173,8 @@
                                 <span class="info-box-icon bg-danger elevation-1"><i class="fas fa-random"></i></span>
 
                                 <div class="info-box-content">
-                                    <span class="info-box-text">Peminjaman</span>
-                                    <span class="info-box-number">41,410</span>
+                                    <span class="info-box-text">Keuntungan</span>
+                                    <span class="info-box-number">45.000.000</span>
                                 </div>
                                 <!-- /.info-box-content -->
                             </div>
@@ -292,8 +190,8 @@
                                 <span class="info-box-icon bg-success elevation-1"><i class="fas fa-shopping-cart"></i></span>
 
                                 <div class="info-box-content">
-                                    <span class="info-box-text">Pengembalian</span>
-                                    <span class="info-box-number">760</span>
+                                    <span class="info-box-text">Jumlah Ayam</span>
+                                    <span class="info-box-number">9987</span>
                                 </div>
                                 <!-- /.info-box-content -->
                             </div>
@@ -305,8 +203,8 @@
                                 <span class="info-box-icon bg-warning elevation-1"><i class="fas fa-users"></i></span>
 
                                 <div class="info-box-content">
-                                    <span class="info-box-text">Anggota</span>
-                                    <span class="info-box-number">2,000</span>
+                                    <span class="info-box-text">Pegawai</span>
+                                    <span class="info-box-number">50</span>
                                 </div>
                                 <!-- /.info-box-content -->
                             </div>
@@ -329,7 +227,7 @@
             <div class="float-right d-none d-sm-block">
                 <b>Version</b> 3.0.5
             </div>
-            <strong>Copyright &copy; 2020 <a href="#">E-Perpus | SMK Negeri 1 Cimahi</a>.</strong> All rights
+            <strong>Copyright &copy; 2023 <a href="#">Admin | SIMOYAM</a>.</strong> All rights
             reserved.
         </footer>
 
