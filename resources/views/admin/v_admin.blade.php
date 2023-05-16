@@ -50,7 +50,7 @@
                         <img src="{{asset('template')}}/dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
                     </div>
                     <div class="info">
-                        <a href="#" class="d-block">Alexander Pierce</a>
+                        <a href="#" class="d-block">Alifah Merthi</a>
                     </div>
                 </div>
             </ul>
@@ -63,8 +63,8 @@
             <!-- Brand Logo -->
             <a href="#" class="brand-link">
                 <img src="{{asset('template')}}/dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
-                <span class="brand-text font-weight-light">E-Perpus
-                    <p>SMK Negeri 1 Cimahi</p>
+                <span class="brand-text font-weight-light">Admin
+                    <p>SIMOYAM</p>
                 </span>
             </a>
 
